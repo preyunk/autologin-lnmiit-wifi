@@ -17,7 +17,7 @@ const puppeteer = require("puppeteer");
   );
   await page.$eval(
     "#LoginUserPassword_auth_password",
-    el => (el.value = "InwOYdT6")
+    el => (el.value = "password")
   );
   const el = await page.$("#UserCheck_Login_Button");
   console.log(el);
